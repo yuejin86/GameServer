@@ -18,6 +18,7 @@ $RECYCLE.BIN/
 # Operating System Files
 # =========================
 third_party/
+src/GameServer/GameServer/Debug/
 # OSX
 # =========================
 
