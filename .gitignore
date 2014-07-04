@@ -18,7 +18,8 @@ $RECYCLE.BIN/
 # Operating System Files
 # =========================
 third_party/
-src/GameServer/GameServer/Debug/
+src\GameServer\Debug
+src\GameServer\GameServer\Debug
 # OSX
 # =========================
 
@@ -35,3 +36,8 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+*.ipch
+src/GameServer/ipch/
+src/GameServer/bin/
+src/GameServer/GameServer.sdf

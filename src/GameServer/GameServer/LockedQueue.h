@@ -1,7 +1,7 @@
 #ifndef LOCKEDQUEUE_H
 #define LOCKEDQUEUE_H
 #include <deque>
-#include <thread/shared_lock_guard.hpp>
+#include <boost/thread/shared_lock_guard.hpp>
 
 template <class T, class LockType, typename StorageType = std::deque<T> >
 class LockedQueue

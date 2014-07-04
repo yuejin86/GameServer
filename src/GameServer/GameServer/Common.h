@@ -2,6 +2,7 @@
 #define _COMMON_H
 
 #include <stdlib.h>
+#include <signal.h>
 
 
 typedef signed char     int8;
